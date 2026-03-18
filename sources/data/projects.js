@@ -1,51 +1,33 @@
+// TODO: Replace all placeholder projects with your real projects
+// TODO: Each project needs: title, titleSmall (1-2 short strings), url, attributes.role, images
+// TODO: Images are .ktx files in static/projects/ - replace with your own screenshots after running npm run compress
+// TODO: distinctions can include 'awwwards', 'fwa', 'cssda' or leave empty []
 export default [
     {
-        title: 'Three.js Journey',
-        titleSmall: [ 'Three.js', 'Journey' ],
-        url: 'https://threejs-journey.com',
+        title: 'My Portfolio', // TODO: Replace with your project name
+        titleSmall: [ 'My', 'Portfolio' ], // TODO: Short version for 3D display
+        url: 'https://your-portfolio.com', // TODO: Replace with project URL
         attributes:
         {
-            role: [ 'developer', 'formater' ],
-            with: [ 'Hervé Studio', 'Bonhomme Paris' ]
+            role: [ 'developer', 'designer' ], // TODO: Replace with your role(s)
         },
-        distinctions: [ 'fwa' ], // 'awwwards', 'fwa', 'cssda'
-        images:
+        distinctions: [],
+        images: // TODO: Replace with your own .ktx screenshot files
         [
             'threejs-journey-1.ktx',
             'threejs-journey-2.ktx',
             'threejs-journey-3.ktx',
-            'threejs-journey-4.ktx',
-            'threejs-journey-5.ktx',
         ]
     },
-    // {
-    //     title: 'Chartogne Taillet',
-    //     titleSmall: [ 'Chartogne', 'Taillet' ],
-    //     url: 'https://chartogne-taillet.com',
-    //     attributes:
-    //     {
-    //         at: 'Immersive Garden',
-    //         role: 'WebGL developer',
-    //         with: 'Rémi Tran'
-    //     },
-    //     distinctions: [ 'awwwards', 'cssda', 'fwa' ], // 'awwwards', 'fwa', 'cssda'
-    //     images:
-    //     [
-    //         'chartogne-taillet-1.ktx',
-    //         'chartogne-taillet-2.ktx',
-    //         'chartogne-taillet-3.ktx',
-    //     ]
-    // },
     {
-        title: 'Bonhomme | 10 ans',
-        titleSmall: [ 'Bonhomme', '10 ans' ],
-        url: 'https://anniversary.bonhommeparis.com',
+        title: 'Project Alpha', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Alpha' ],
+        url: 'https://example.com/alpha', // TODO: Replace with project URL
         attributes:
         {
-            role: 'WebGL developer',
-            with: 'Bonhomme Paris'
+            role: 'Full-stack developer', // TODO: Replace with your role
         },
-        distinctions: [ 'awwwards', 'fwa' ],
+        distinctions: [],
         images:
         [
             'bonhomme-10-ans-1.ktx',
@@ -54,16 +36,14 @@ export default [
         ]
     },
     {
-        title: 'Madbox',
-        titleSmall: [ 'Madbox' ],
-        url: 'https://madbox.io',
+        title: 'Project Beta', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Beta' ],
+        url: 'https://example.com/beta', // TODO: Replace with project URL
         attributes:
         {
-            role: 'WebGL developer',
-            at: 'Hervé Studio',
-            with: 'Lei Xing'
+            role: 'Frontend developer',
         },
-        distinctions: [ 'awwwards' ],
+        distinctions: [],
         images:
         [
             'madbox-1.ktx',
@@ -72,34 +52,30 @@ export default [
         ]
     },
     {
-        title: 'Luni',
-        titleSmall: [ 'Luni' ],
-        url: 'https://www.luni.app',
+        title: 'Project Gamma', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Gamma' ],
+        url: 'https://example.com/gamma', // TODO: Replace with project URL
         attributes:
         {
-            role: 'WebGL developer',
-            at: 'Hervé Studio',
-            with: 'Loïc Belaidremesal'
+            role: 'Creative developer',
         },
-        distinctions: [ 'awwwards', 'fwa' ],
+        distinctions: [],
         images:
         [
             'luni-1.ktx',
             'luni-2.ktx',
             'luni-3.ktx',
-            'luni-4.ktx',
         ]
     },
     {
-        title: 'Scout',
-        titleSmall: [ 'Scout' ],
-        url: 'https://scout-omega.vercel.app',
+        title: 'Project Delta', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Delta' ],
+        url: 'https://example.com/delta', // TODO: Replace with project URL
         attributes:
         {
-            role: 'WebGL developer',
-            at: 'Hervé Studio'
+            role: 'Developer',
         },
-        distinctions: [  ],
+        distinctions: [],
         images:
         [
             'scout-1.ktx',
@@ -108,15 +84,14 @@ export default [
         ]
     },
     {
-        title: 'Prior Holdings',
-        titleSmall: [ 'Prio', 'Holdings' ],
-        url: 'https://prior.co.jp/discover/en',
+        title: 'Project Epsilon', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Epsilon' ],
+        url: 'https://example.com/epsilon', // TODO: Replace with project URL
         attributes:
         {
-            role: [ 'Front developer', 'WebGL developer' ],
-            at: 'Immersive Garden'
+            role: 'Developer',
         },
-        distinctions: [ 'awwwards', 'cssda', 'fwa' ],
+        distinctions: [],
         images:
         [
             'prior-1.ktx',
@@ -125,15 +100,14 @@ export default [
         ]
     },
     {
-        title: 'Orano',
-        titleSmall:  'Orano',
-        url: 'https://www.orano.group/experience/innovation/en',
+        title: 'Project Zeta', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Zeta' ],
+        url: 'https://example.com/zeta', // TODO: Replace with project URL
         attributes:
         {
-            role: [ 'Front developer', 'WebGL developer' ],
-            at: 'Immersive Garden'
+            role: 'Developer',
         },
-        distinctions: [ 'awwwards', 'cssda', 'fwa' ],
+        distinctions: [],
         images:
         [
             'orano-1.ktx',
@@ -142,16 +116,14 @@ export default [
         ]
     },
     {
-        title: 'Citrix / Redbull',
-        titleSmall: ['Citrix', 'Redbull'],
-        url: 'https://thenewmobileworkforce.imm-g-prod.com',
+        title: 'Project Eta', // TODO: Replace with your project name
+        titleSmall: [ 'Project', 'Eta' ],
+        url: 'https://example.com/eta', // TODO: Replace with project URL
         attributes:
         {
-            role: [ 'WebGL developer' ],
-            at: 'Immersive Garden',
-            with: [ 'Damien Doussaud', 'Quentin Leclercq' ]
+            role: 'Developer',
         },
-        distinctions: [ 'awwwards', 'cssda', 'fwa' ],
+        distinctions: [],
         images:
         [
             'citrix-redbull-1.ktx',

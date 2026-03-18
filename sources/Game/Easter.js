@@ -10,7 +10,7 @@ export class Easter
     {
         this.game = Game.getInstance()
 
-        this.code = 'easter2025'
+        this.code = 'myeaster2025' // TODO: Replace with your own easter egg code
         
         this.setEggVisual()
         this.setEggs()
@@ -242,7 +242,7 @@ export class Easter
                     this.modal.code.textContent = this.code.toUpperCase()
 
                 // Link
-                this.modal.link.href = `https://threejs-journey.com/join/${this.code}`
+                this.modal.link.href = `#` // TODO: Replace with your reward link
 
                 // Save as already opened
                 this.modal.firstOpen = false

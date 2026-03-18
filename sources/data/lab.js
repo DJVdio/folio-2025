@@ -1,79 +1,82 @@
+// TODO: Replace all placeholder experiments with your real experiments/side projects
+// TODO: Each entry needs: title, url, image (.ktx in static/lab/), imageMini (.ktx in static/lab/)
+// TODO: You can add or remove entries as needed
 export default [
     {
-        title: 'Black Hole',
-        url: 'https://awwwards-2022-workshop.vercel.app',
-        image: 'black-hole.ktx',
-        imageMini: 'black-hole-mini.ktx'
+        title: 'Experiment 01', // TODO: Replace with your experiment name
+        url: 'https://example.com/exp-01', // TODO: Replace with experiment URL
+        image: 'black-hole.ktx', // TODO: Replace with your own .ktx image
+        imageMini: 'black-hole-mini.ktx' // TODO: Replace with your own mini .ktx image
     },
     {
-        title: 'Infinite World',
-        url: 'https://infinite-world.vercel.app',
+        title: 'Experiment 02', // TODO: Replace
+        url: 'https://example.com/exp-02', // TODO: Replace
         image: 'infinite-world.ktx',
         imageMini: 'infinite-world-mini.ktx'
     },
     {
-        title: 'My Room in 3D',
-        url: 'https://my-room-in-3d.vercel.app',
+        title: 'Experiment 03', // TODO: Replace
+        url: 'https://example.com/exp-03', // TODO: Replace
         image: 'my-room-in-3d.ktx',
         imageMini: 'my-room-in-3d-mini.ktx',
     },
     {
-        title: 'Particles System',
-        url: 'https://three-js-tsl-particles-system.vercel.app',
+        title: 'Experiment 04', // TODO: Replace
+        url: 'https://example.com/exp-04', // TODO: Replace
         image: 'particles-system.ktx',
         imageMini: 'particles-system-mini.ktx'
     },
     {
-        title: 'Stylized Low Poly',
-        url: 'https://stylized-low-poly.vercel.app',
+        title: 'Experiment 05', // TODO: Replace
+        url: 'https://example.com/exp-05', // TODO: Replace
         image: 'stylized-low-poly.ktx',
         imageMini: 'stylized-low-poly-mini.ktx'
     },
     {
-        title: 'Holographic terrain',
-        url: 'https://experiment-holographic-terrain.vercel.app',
+        title: 'Experiment 06', // TODO: Replace
+        url: 'https://example.com/exp-06', // TODO: Replace
         image: 'holographic-terrain.ktx',
         imageMini: 'holographic-terrain-mini.ktx'
     },
     {
-        title: 'Woodkid Volcano Robot',
-        url: 'https://experiment-woodkid-volcano-robot.vercel.app',
+        title: 'Experiment 07', // TODO: Replace
+        url: 'https://example.com/exp-07', // TODO: Replace
         image: 'woodkid-volcano-robot.ktx',
         imageMini: 'woodkid-volcano-robot-mini.ktx'
     },
     {
-        title: 'Bounce Friday',
-        url: 'https://threejs-journey.com/apps/bounce-friday/',
+        title: 'Experiment 08', // TODO: Replace
+        url: 'https://example.com/exp-08', // TODO: Replace
         image: 'bounce-friday.ktx',
         imageMini: 'bounce-friday-mini.ktx'
     },
     {
-        title: 'VFX flames',
-        url: 'https://threejs.org/examples/webgpu_tsl_vfx_flames.html',
+        title: 'Experiment 09', // TODO: Replace
+        url: 'https://example.com/exp-09', // TODO: Replace
         image: 'vfx-flames.ktx',
         imageMini: 'vfx-flames-mini.ktx'
     },
     {
-        title: 'VFX tornado',
-        url: 'https://threejs.org/examples/webgpu_tsl_vfx_tornado.html',
+        title: 'Experiment 10', // TODO: Replace
+        url: 'https://example.com/exp-10', // TODO: Replace
         image: 'vfx-tornado.ktx',
         imageMini: 'vfx-tornado-mini.ktx'
     },
     {
-        title: 'DOOM Portal',
-        url: 'https://doom-portal-in-webgl.vercel.app',
+        title: 'Experiment 11', // TODO: Replace
+        url: 'https://example.com/exp-11', // TODO: Replace
         image: 'doom-portal.ktx',
         imageMini: 'doom-portal-mini.ktx'
     },
     {
-        title: 'Organic Sphere',
-        url: 'https://organic-sphere.vercel.app',
+        title: 'Experiment 12', // TODO: Replace
+        url: 'https://example.com/exp-12', // TODO: Replace
         image: 'organic-sphere.ktx',
         imageMini: 'organic-sphere-mini.ktx'
     },
     {
-        title: 'Attractors',
-        url: 'https://threejs.org/examples/webgpu_tsl_compute_attractors_particles.html',
+        title: 'Experiment 13', // TODO: Replace
+        url: 'https://example.com/exp-13', // TODO: Replace
         image: 'attractors.ktx',
         imageMini: 'attractors-mini.ktx'
     }

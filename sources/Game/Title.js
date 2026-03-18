@@ -85,7 +85,7 @@ export class Title
             }
 
             
-            document.title = 'Bruno' + title.join('')
+            document.title = 'Me' + title.join('') // TODO: Replace 'Me' with your name/brand
         }
     }
 }

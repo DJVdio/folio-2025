@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I {} basename {})",
+      "Bash(grep \"\\\\.js$\")",
+      "Bash(grep -r discord /c/folio-2025/sources --include=*.js)"
+    ]
+  }
+}

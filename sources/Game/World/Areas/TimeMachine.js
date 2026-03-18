@@ -24,7 +24,7 @@ export class TimeMachine extends Area
             InteractivePoints.STATE_CONCEALED,
             () =>
             {
-                window.open('https://2019.bruno-simon.com')
+                window.open('#') // TODO: Replace with your external link
             },
             () =>
             {
