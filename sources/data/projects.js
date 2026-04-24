@@ -1,18 +1,18 @@
-// TODO: Replace all placeholder projects with your real projects
-// TODO: Each project needs: title, titleSmall (1-2 short strings), url, attributes.role, images
-// TODO: Images are .ktx files in static/projects/ - replace with your own screenshots after running npm run compress
-// TODO: distinctions can include 'awwwards', 'fwa', 'cssda' or leave empty []
+// Projects shown in the `projects` area.
+// Image filenames must exist in static/projects/ (as .ktx). Reusing the original
+// Bruno Simon screenshots for now so the 3D area doesn't break — swap later by
+// running `npm run compress` on your own screenshots.
 export default [
     {
-        title: 'My Portfolio', // TODO: Replace with your project name
-        titleSmall: [ 'My', 'Portfolio' ], // TODO: Short version for 3D display
-        url: 'https://your-portfolio.com', // TODO: Replace with project URL
+        title: 'Folio 2025 Fork',
+        titleSmall: [ 'Folio', 'Fork' ],
+        url: 'https://github.com/DJVdio/folio-2025',
         attributes:
         {
-            role: [ 'developer', 'designer' ], // TODO: Replace with your role(s)
+            role: [ 'tinkerer' ],
         },
         distinctions: [],
-        images: // TODO: Replace with your own .ktx screenshot files
+        images:
         [
             'threejs-journey-1.ktx',
             'threejs-journey-2.ktx',
@@ -20,12 +20,12 @@ export default [
         ]
     },
     {
-        title: 'Project Alpha', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Alpha' ],
-        url: 'https://example.com/alpha', // TODO: Replace with project URL
+        title: 'WIP Project 02',
+        titleSmall: [ 'WIP', '02' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
-            role: 'Full-stack developer', // TODO: Replace with your role
+            role: 'Full-stack developer',
         },
         distinctions: [],
         images:
@@ -36,9 +36,9 @@ export default [
         ]
     },
     {
-        title: 'Project Beta', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Beta' ],
-        url: 'https://example.com/beta', // TODO: Replace with project URL
+        title: 'WIP Project 03',
+        titleSmall: [ 'WIP', '03' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
             role: 'Frontend developer',
@@ -52,9 +52,9 @@ export default [
         ]
     },
     {
-        title: 'Project Gamma', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Gamma' ],
-        url: 'https://example.com/gamma', // TODO: Replace with project URL
+        title: 'WIP Project 04',
+        titleSmall: [ 'WIP', '04' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
             role: 'Creative developer',
@@ -68,9 +68,9 @@ export default [
         ]
     },
     {
-        title: 'Project Delta', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Delta' ],
-        url: 'https://example.com/delta', // TODO: Replace with project URL
+        title: 'WIP Project 05',
+        titleSmall: [ 'WIP', '05' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
             role: 'Developer',
@@ -84,9 +84,9 @@ export default [
         ]
     },
     {
-        title: 'Project Epsilon', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Epsilon' ],
-        url: 'https://example.com/epsilon', // TODO: Replace with project URL
+        title: 'WIP Project 06',
+        titleSmall: [ 'WIP', '06' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
             role: 'Developer',
@@ -100,9 +100,9 @@ export default [
         ]
     },
     {
-        title: 'Project Zeta', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Zeta' ],
-        url: 'https://example.com/zeta', // TODO: Replace with project URL
+        title: 'WIP Project 07',
+        titleSmall: [ 'WIP', '07' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
             role: 'Developer',
@@ -116,9 +116,9 @@ export default [
         ]
     },
     {
-        title: 'Project Eta', // TODO: Replace with your project name
-        titleSmall: [ 'Project', 'Eta' ],
-        url: 'https://example.com/eta', // TODO: Replace with project URL
+        title: 'WIP Project 08',
+        titleSmall: [ 'WIP', '08' ],
+        url: 'https://github.com/DJVdio',
         attributes:
         {
             role: 'Developer',

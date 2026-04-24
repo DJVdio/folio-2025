@@ -1,38 +1,28 @@
 import * as THREE from 'three/webgpu'
 
-// TODO: Replace the ASCII art below with your own name/brand (use https://patorjk.com/software/taag/ to generate)
-// TODO: Replace all placeholder social links in the Socials section
 const text = `
-███╗   ███╗██╗   ██╗
-████╗ ████║╚██╗ ██╔╝
-██╔████╔██║ ╚████╔╝
-██║╚██╔╝██║  ╚██╔╝
-██║ ╚═╝ ██║   ██║
-╚═╝     ╚═╝   ╚═╝
-
-██████╗  ██████╗ ██████╗ ████████╗███████╗ ██████╗ ██╗     ██╗ ██████╗
-██╔══██╗██╔═══██╗██╔══██╗╚══██╔══╝██╔════╝██╔═══██╗██║     ██║██╔═══██╗
-██████╔╝██║   ██║██████╔╝   ██║   █████╗  ██║   ██║██║     ██║██║   ██║
-██╔═══╝ ██║   ██║██╔══██╗   ██║   ██╔══╝  ██║   ██║██║     ██║██║   ██║
-██║     ╚██████╔╝██║  ██║   ██║   ██║     ╚██████╔╝███████╗██║╚██████╔╝
-╚═╝      ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝      ╚═════╝ ╚══════╝╚═╝ ╚═════╝
+██████╗      ██╗██╗   ██╗██████╗ ██╗ ██████╗
+██╔══██╗     ██║██║   ██║██╔══██╗██║██╔═══██╗
+██║  ██║     ██║██║   ██║██║  ██║██║██║   ██║
+██║  ██║██   ██║╚██╗ ██╔╝██║  ██║██║██║   ██║
+██████╔╝╚█████╔╝ ╚████╔╝ ██████╔╝██║╚██████╔╝
+╚═════╝  ╚════╝   ╚═══╝  ╚═════╝ ╚═╝ ╚═════╝
 
 ╔═ Intro ═══════════════╗
-║ Welcome to my interactive 3D portfolio!
-║ Drive around and explore different areas to learn more about me.
+║ Hey, I'm hufangwei (DJVdio).
+║ This is a local fork of Bruno Simon's 2025 folio — just for fun.
+║ Drive around and poke at things.
 ╚═══════════════════════╝
 
 ╔═ Socials ═══════════════╗
-║ Mail           ⇒ your@email.com
-║ GitHub         ⇒ https://github.com/your-username
-║ X              ⇒ https://x.com/your_handle
-║ Bilibili       ⇒ https://space.bilibili.com/your_id
-║ LinkedIn       ⇒ https://www.linkedin.com/in/your-profile/
-║ Blog           ⇒ https://your-blog.com
+║ Mail           ⇒ 592161467@qq.com
+║ GitHub         ⇒ https://github.com/DJVdio
+║ Bilibili       ⇒ https://b23.tv/GiAhchK
+║ LinkedIn       ⇒ Fangwei Hu (search on linkedin.com)
 ╚═══════════════════════╝
 
 ╔═ Debug ═══════════════╗
-║ You can access the debug mode by adding #debug at the end of the URL and reloading.
+║ Access debug mode by adding #debug at the end of the URL and reloading.
 ║ Press [V] to toggle the free camera.
 ╚═══════════════════════╝
 
